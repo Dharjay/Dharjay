@@ -1,0 +1,208 @@
+html {
+  scroll-behavior: smooth;
+}
+.form-label {
+  color: white;
+  font-family: "Poppins";
+}
+.name {
+  color: rgb(235, 68, 68);
+}
+.text {
+  font-family: "poppins";
+  color: white;
+  position: relative;
+  font-size: 30px;
+  font-weight: 600px;
+  text-align: center;
+}
+.auto-type {
+  color: rgb(235, 68, 68);
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "poppins";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  text-align: center;
+}
+.para {
+  padding-top: 5px;
+  text-align: center;
+  padding-top: 200px;
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0px;
+}
+#home {
+  padding-top: 150px;
+  height: 840px;
+  background-image: url("img/Polygon-Backgrounds-Dark-V4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about {
+  height: 900px;
+  border: solid 1px black;
+  background-image: url("img/Polygon-Backgrounds-Dark-V4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#skills {
+  height: 840px;
+  border: solid 1px black;
+  background-image: url("img/Polygon-Backgrounds-Dark-V4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+#contact {
+  height: 700px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 380px;
+}
+.aa {
+  font-size: 20px;
+}
+.cc {
+  color: rgb(235, 68, 68);
+}
+.con {
+  font-size: 40px;
+}
+
+.hobby {
+  font-family: "Poppins";
+  margin-top: 150px;
+  font-size: 30px;
+}
+
+.imgs {
+  border-radius: 30px;
+}
+.pic {
+  border: solid 5px red;
+  border-radius: 150px;
+}
+.date,
+.nxt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.intro {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 10px;
+  margin-top: 10px;
+}
+.full {
+  color: rgb(243, 66, 66);
+}
+.nn {
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: bolder;
+}
+.code {
+  margin-top: 30px;
+}
+.game {
+  margin-top: 34px;
+}
+.col {
+  height: 600px;
+  width: 600px;
+}
+#hob {
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: solid 5px white;
+}
+
+.par {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-size: 20px;
+  font-family: arial;
+  margin-top: 85px;
+}
+#sleep {
+  margin-top: 18px;
+}
+.coding {
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: "poppins";
+}
+.skell {
+  color: white;
+  margin-top: 40px;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: bolder;
+
+  margin-bottom: 40px;
+}
+nav {
+  padding-top: 19px;
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  height: 80px;
+  padding-bottom: 20px;
+  background-color: #000000;
+  position: fixed;
+}
+.b {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 5px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.b:before,
+.b:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  background: orangered;
+  transition: 0.5s;
+}
+
+.b:after {
+  left: 0;
+  bottom: -10px;
+}
+.b:before {
+  right: 0;
+  top: -10px;
+}
+.b:hover:after,
+.b:hover:before {
+  width: 100%;
+}
