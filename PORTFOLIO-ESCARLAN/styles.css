@@ -164,6 +164,7 @@ html {
   margin-bottom: 40px;
 }
 nav {
+   z-index: 1;
   padding-top: 19px;
   width: 70vw;
   display: flex;
